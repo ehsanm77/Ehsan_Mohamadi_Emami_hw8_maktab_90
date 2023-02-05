@@ -3,7 +3,6 @@
 @import url(./secondCss.css);
 @import url(./_three-style.css);
 @import url(./_footer.css);
-@import url(/_responsive.css);
 
 .header {
   /* max-width: 1440px; */
