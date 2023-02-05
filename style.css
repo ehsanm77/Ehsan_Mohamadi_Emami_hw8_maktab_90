@@ -1,0 +1,42 @@
+@import url(./_reset.css);
+@import url(./_one-style.css);
+@import url(./secondCss.css);
+@import url(./_three-style.css);
+@import url(./_footer.css);
+.header {
+  max-width: 1440px;
+  height: 20rem;
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 100%;
+  gap: 1.5rem;
+}
+.header h1,
+p,button {
+  color: var(--color-secondry);
+  text-align: center;
+}
+.header p {
+  font-size: 1.6rem;
+}
+.button{
+  width: 10rem;
+  height: 4rem;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-secondry);
+  border-radius: 3px;
+}
+.button:hover{
+  background-color: var(--color-secondry);
+  color: var(--color-primary);
+}
