@@ -1,11 +1,10 @@
-@import url(./_reset.css);
-@import url(./_one-style.css);
-@import url(./secondCss.css);
-@import url(./_three-style.css);
-@import url(./_footer.css);
+@import url(/css/_reset.css);
+@import url(/css/_one-style.css);
+@import url(/css/secondCss.css);
+@import url(/css/_three-style.css);
+@import url(/css/_footer.css);
 
 .header {
-  /* max-width: 1440px; */
   height: 20rem;
   background-color: var(--color-primary);
   display: flex;
