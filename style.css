@@ -3,8 +3,10 @@
 @import url(./secondCss.css);
 @import url(./_three-style.css);
 @import url(./_footer.css);
+@import url(/_responsive.css);
+
 .header {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   height: 20rem;
   background-color: var(--color-primary);
   display: flex;
@@ -12,31 +14,91 @@
   align-items: center;
   justify-content: center;
 }
+
 .headerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50rem;
-  height: 100%;
+  width: 40rem;
+  height: auto;
   gap: 1.5rem;
 }
+
 .header h1,
-p,button {
+p,
+button {
   color: var(--color-secondry);
   text-align: center;
 }
+
 .header p {
   font-size: 1.6rem;
 }
-.button{
+
+.button {
   width: 10rem;
   height: 4rem;
   background-color: var(--color-primary);
   border: 1px solid var(--color-secondry);
   border-radius: 3px;
 }
-.button:hover{
+
+.button:hover {
   background-color: var(--color-secondry);
   color: var(--color-primary);
+}
+
+@media screen and (max-width:460px) {
+  .headerContainer {
+    width: 30rem;
+  }
+
+  .third-div {
+    width: 30rem;
+  }
+
+  .third-buttom {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .header {
+    height: 30rem;
+  }
+
+  .headerContainer {
+    width: 25rem;
+  }
+
+  .third-div {
+    width: 20rem;
+  }
+
+  .third-buttom {
+    width: 20rem;
+  }
+
+  .footer-body {
+    flex-wrap: wrap;
+  }
+
+  .item-right {
+    width: 100%;
+    height: 10rem;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .item-left {
+    width: 100%;
+    height: 10rem;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .contact-us-address {
+    margin: 0;
+  }
 }

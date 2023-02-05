@@ -1,23 +1,27 @@
-:root{
-    --color-primary:#333333;
-    --color-secondry:#FFFFFF;
+:root {
+    --color-primary: #333333;
+    --color-secondry: #FFFFFF;
     --color-thirty: #EAEAEA;
-    --color-fourthy:#2690D4;
-    --color-link:#1b6ea3;
+    --color-fourthy: #2690D4;
+    --color-link: #1b6ea3;
 }
+
 @font-face {
-    font-family: "sofiasans";
-    src: url(/font/SofiaSans-Medium.ttf);
+    font-family: "itim";
+    src: url(/fonts/Itim-Regular.ttf);
 }
+
 *,
 *::after,
-*::before{
+*::before {
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-body{
-    font-family: "sofiasans";
+
+body {
+    font-family: "itim";
 }
