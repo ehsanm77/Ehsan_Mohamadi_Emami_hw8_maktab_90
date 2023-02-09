@@ -6,11 +6,6 @@
     --color-link: #1b6ea3;
 }
 
-@font-face {
-    font-family: "itim";
-    src: url(/fonts/Itim-Regular.ttf);
-}
-
 *,
 *::after,
 *::before {

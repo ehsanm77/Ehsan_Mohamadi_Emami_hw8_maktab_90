@@ -3,6 +3,7 @@
 @import url(/css/secondCss.css);
 @import url(/css/_three-style.css);
 @import url(/css/_footer.css);
+@import url(/css/font.css);
 
 .header {
   height: 20rem;
