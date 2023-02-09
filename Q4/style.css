@@ -1,9 +1,9 @@
-@import url(/css/_reset.css);
-@import url(/css/_one-style.css);
-@import url(/css/secondCss.css);
-@import url(/css/_three-style.css);
-@import url(/css/_footer.css);
-@import url(/css/font.css);
+@import url(/Q4/css/_reset.css);
+@import url(/Q4/css/_one-style.css);
+@import url(/Q4/css/secondCss.css);
+@import url(/Q4/css/_three-style.css);
+@import url(/Q4/css/_footer.css);
+@import url(/Q4/css/font.css);
 
 .header {
   height: 20rem;
