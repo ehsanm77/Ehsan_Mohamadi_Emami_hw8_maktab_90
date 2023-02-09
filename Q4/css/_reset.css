@@ -1,0 +1,22 @@
+:root {
+    --color-primary: #333333;
+    --color-secondry: #FFFFFF;
+    --color-thirty: #EAEAEA;
+    --color-fourthy: #2690D4;
+    --color-link: #1b6ea3;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "itim";
+}
