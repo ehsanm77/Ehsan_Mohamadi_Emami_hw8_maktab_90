@@ -54,58 +54,51 @@ body {
 }
 
 .img1 {
-    background: url(/img/car\ 1.jpg);
+    background: url(/Q5/img/car\ 1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img2 {
-    background: url(/img/car\ 2.jpg);
+    background: url(/Q5/img/car\ 2.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(77, 255, 0);
 }
 
 .img3 {
-    background: url(/img/car\ 3.jpg);
+    background: url(/Q5/img/car\ 3.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(255, 251, 0);
 }
 
 .img4 {
-    background: url(/img/car\ 4.jpg);
+    background: url(/Q5/img/car\ 4.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(255, 0, 98);
 }
 
 .img5 {
-    background: url(/img/car\ 5.jpg);
+    background: url(/Q5/img/car\ 5.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(255, 0, 0);
 }
 
 .img6 {
-    background: url(/img/car\ 6.jpg);
+    background: url(/Q5/img/car\ 6.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(255, 106, 0);
 }
 
 .img7 {
-    background: url(/img/car\ 7.jpg);
+    background: url(/Q5/img/car\ 7.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(255, 0, 149);
 }
 
 .img8 {
-    background: url(/img/car\ 8.jpg);
+    background: url(/Q5/img/car\ 8.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgb(0, 255, 119);
 }
 
 @media screen and (max-width:620px) {
