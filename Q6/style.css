@@ -1,0 +1,108 @@
+@import url(/Q6/fonts.css);
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    font-family: "itim";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "itim";
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.fixed-img1 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #0f81dc;
+    margin-left: auto;
+    border-radius: 0 0 0 100%;
+}
+
+.fixed-img2 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #0f81dc;
+    border-radius: 0 100% 0 0;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    font-size: 1.6rem;
+    margin: 5rem;
+}
+
+.item {
+    width: 18rem;
+    height: 25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 0 0 10px 10px rgb(224, 224, 224);
+}
+
+.num {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: absolute;
+    top: -2.5rem;
+    box-shadow: 0 0 10px 5px rgba(224, 224, 224);
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
